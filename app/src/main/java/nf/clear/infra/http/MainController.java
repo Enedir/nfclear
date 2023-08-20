@@ -16,7 +16,7 @@ public class MainController {
 
   }
 
-  public Object post(InputDTO input){
+  public <T> T post(InputDTO input){
     return this.generateInvoices.execute(input, new JsonPresenter());
   }
     

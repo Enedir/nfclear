@@ -10,7 +10,7 @@ import nf.clear.application.presenter.Presenter;
 public class CsvPresenter implements Presenter {
 
     @Override
-    public Object present(List<OutputDTO> outputs) {
+    public <T> T present(List<OutputDTO> outputs) {
         var lines = new StringBuilder();
          DateFormat formatter = new SimpleDateFormat("YYYY-MM-DD");
 
@@ -20,7 +20,7 @@ public class CsvPresenter implements Presenter {
 			line.append(data.amount.toString());
 			lines.append(line.append(";").toString());
 		}
-		return lines.append("\n").toString();
+		return (T) lines.append("\n").toString();
     }
     
 }

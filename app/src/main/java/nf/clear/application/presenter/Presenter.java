@@ -6,6 +6,6 @@ import nf.clear.application.dto.OutputDTO;
 
 public interface Presenter {
 
-    Object present (List<OutputDTO> outputs);
+    <T> T present (List<OutputDTO> outputs);
     
 }

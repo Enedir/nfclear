@@ -20,7 +20,7 @@ public class GenerateInvoicesImpl implements GenerateInvoices{
 
 
     @Override
-    public Object execute(InputDTO input, Presenter present) {
+    public <T> T execute(InputDTO input, Presenter present) {
         var output = new ArrayList<OutputDTO>();
         var contracts  = this.contractRepository.list();
 
@@ -33,5 +33,4 @@ public class GenerateInvoicesImpl implements GenerateInvoices{
 
         return present.present(output);
     }
-    
 }

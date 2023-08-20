@@ -8,8 +8,9 @@ import nf.clear.application.presenter.Presenter;
 public class JsonPresenter implements Presenter{
 
     @Override
-    public Object present(List<OutputDTO> outputs) {
-        return outputs;
+    public <T> T present(List<OutputDTO> outputs) {
+
+        return (T) outputs;
     }
     
 }

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dieselpoint:norm:1.0.5" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.dieselpoint" artifactId="norm" version="1.0.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.dieselpoint/norm/1.0.5/33eee2d5696eaa0ec293b15cee4e48e035a515d/norm-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.dieselpoint/norm/1.0.5/1a691ded1a50b370b45813c95fe5a8dd3e09f359/norm-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
